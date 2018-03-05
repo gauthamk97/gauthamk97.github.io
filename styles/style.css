@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+}
+
+#myPic {
+    position: absolute;
+    width: 15%;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#mainImage {
+    margin: auto;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+}
+
+div {
+    position: relative;
+}
