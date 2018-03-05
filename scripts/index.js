@@ -293,6 +293,14 @@ Particle.prototype = (function(o) {
         this._latest.set(this);
         this.add(this._speed);
 
+        //Rebound off edge of screen
+        var screenWidth = window.innerWidth, screenHeight = window.innerHeight;
+        if (this.y<=0 || this.y>=screenHeight)
+            this._speed.y = -this._speed.y;
+        
+        if (this.x<=0 || this.x>=screenWidth)
+            this._speed.x = -this._speed.x;
+
     }
 
     // render: function(ctx) {
