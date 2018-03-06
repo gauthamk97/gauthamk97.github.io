@@ -4,20 +4,28 @@ body {
 
 #myPic {
     position: absolute;
-    width: 15%;
+    width: 200px;
     border-radius: 50%;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
 }
 
-#mainImage {
-    margin: auto;
-    width: 100%;
-    top: 50%;
-    left: 50%;
+.outer-container {
+    position: relative;
 }
 
-div {
-    position: relative;
+.inner-container {
+    position: absolute;
+}
+
+#sayHello {
+    top: 50%;
+    transform: translateY(100px);
+    width: 100%;
+    text-align: center;
+}
+
+#hi {
+    color: white;
 }
