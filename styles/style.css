@@ -40,8 +40,11 @@ body {
 }
 
 #scrollDown {
-    top: 70%;
+    bottom: 8%;
+    transform: translateY(-98px);
     animation-delay: 2s;
+    animation-name: fadeInUpScroll;
+    -webkit-animation-name: fadeInUpScroll;
 }
 
 .heading {
@@ -128,6 +131,28 @@ p {
 
     to {
         transform: translateY(100px);
+        opacity: 1
+    }
+}
+
+@keyframes fadeInUpScroll {
+    from {
+        transform: translateY(40px);
+    }
+
+    to {
+        transform: translateY(0px);
+        opacity: 1
+    }
+}
+
+@-webkit-keyframes fadeInUpScroll {
+    from {
+        transform: translateY(40px);
+    }
+
+    to {
+        transform: translateY(0px);
         opacity: 1
     }
 }
