@@ -68,11 +68,11 @@ body {
 
 @-webkit-keyframes fadeInUp {
     from {
-        transform: translate3d(0,0px,0)
+        transform: translateY(140px);
     }
 
     to {
-        transform: translate3d(0,0,0);
+        transform: translateY(100px);
         opacity: 1
     }
 }
