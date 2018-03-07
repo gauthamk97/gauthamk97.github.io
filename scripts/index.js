@@ -414,7 +414,6 @@ Particle.prototype = (function(o) {
         }
     }
 
-
     // Functions
 
     function addParticle(num) {
@@ -455,11 +454,14 @@ Particle.prototype = (function(o) {
 
     addParticle(control.particleNum);
 
+    /*
+    Removing gravity abilities
+    
     canvas.addEventListener('mousemove', mouseMove, false);
     canvas.addEventListener('mousedown', mouseDown, false);
     canvas.addEventListener('mouseup', mouseUp, false);
     canvas.addEventListener('dblclick', doubleClick, false);
-
+    */
 
     // GUI
 
