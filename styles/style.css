@@ -89,6 +89,7 @@ button {
     color: rgb(80, 80, 80);
     font-family: 'Open Sans',sans-serif;
     cursor: pointer;
+    background-color: white;
     transition: background-color 0.5s;
 }
 
