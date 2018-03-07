@@ -80,6 +80,22 @@ p {
     padding-top: 0px;
 }
 
+button {
+    width: 130px;
+    height: 50px;
+    border: 1px solid rgb(216, 216, 216);
+    border-radius: 5%;
+    font-size: 1.2em; 
+    color: rgb(80, 80, 80);
+    font-family: 'Open Sans',sans-serif;
+    cursor: pointer;
+    transition: background-color 0.5s;
+}
+
+button:hover {
+    background-color: rgb(225, 225, 225);
+}
+
 #links {
     position: relative;
 }
@@ -90,6 +106,10 @@ p {
     margin-right: 20px;
     color: rgb(196, 196, 196);
     transition: color 0.5s;
+}
+
+.resumeIcon {
+    margin-left: 10px;
 }
 
 #githubLogo:hover {
