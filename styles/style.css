@@ -31,6 +31,10 @@ body {
     text-align: center;
 }
 
+.paragraph-center {
+    text-align: center;
+}
+
 p {
     text-align: center;
     color: rgb(80, 80, 80);
@@ -39,6 +43,20 @@ p {
     max-width: 700px;
     padding: 20px;
     padding-top: 0px;
+}
+
+@media only screen and (max-width: 500px) {
+    p {
+        text-align: justify;
+    }
+}
+
+a {
+    color: rgb(80, 80, 80);
+}
+
+a:hover {
+    color: rgb(133, 133, 133);
 }
 
 /*Landing Section*/
@@ -108,8 +126,7 @@ button:hover {
 
 .textLogo {
     font-size: 45px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin: 20px;
     color: rgb(196, 196, 196);
     transition: color 0.5s;
 }
