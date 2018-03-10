@@ -53,6 +53,7 @@ p {
 
 a {
     color: rgb(80, 80, 80);
+    cursor: pointer;
 }
 
 a:hover {
