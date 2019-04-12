@@ -1,0 +1,177 @@
+/*General Stuff*/
+html, body {
+  margin: 0;
+  font-family: 'Open Sans',sans-serif;
+}
+
+#container1 {
+  width: 100%;
+  height: 40%;
+  top: 25%;
+  position: absolute;
+  transition: opacity 1s, transform 1s;
+}
+
+#container2{
+  width: 100%;
+  top: 75%;
+  position: absolute;
+}
+
+.outer-container {
+  background: white;
+  width: 70%;
+  margin: auto;
+  border-radius: 10px;
+  max-width: 850px;
+  padding-bottom: 10px;
+}
+
+.inner-container {
+  text-align: center;
+}
+
+#helloMessage {
+  color: rgb(255, 255, 255);
+  font-weight: 300;
+  font-size: 28px;
+  letter-spacing: 2px;
+}
+
+button {
+  width: 130px;
+  height: 50px;
+  border: 1px solid rgb(216, 216, 216);
+  border-radius: 5%;
+  font-size: 1.2em; 
+  color: rgb(80, 80, 80);
+  font-family: 'Open Sans',sans-serif;
+  cursor: pointer;
+  background-color: white;
+  transition: background-color 0.5s;
+  margin: 10px;
+}
+
+button:hover {
+  background-color: rgb(225, 225, 225);
+}
+
+.subtopic {
+  color: rgb(80, 80, 80);
+  font-weight: 300;
+  margin: 0px;
+  padding: 15px;
+  text-align: center;
+}
+
+.paragraph-center {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  color: rgb(80, 80, 80);
+  margin: auto;
+  min-width: 300px;
+  max-width: 700px;
+  padding: 20px;
+  padding-top: 0px;
+}
+
+@media only screen and (max-width: 500px) {
+  p {
+      text-align: justify;
+  }
+}
+
+a {
+  color: rgb(80, 80, 80);
+  cursor: pointer;
+}
+
+a:hover {
+  color: rgb(133, 133, 133);
+}
+
+/* About Me */
+#aboutMeHeading {
+  padding-top: 110px;
+}
+
+#dpContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#myPic {
+  position: absolute;
+  width: 200px;
+  border-radius: 50%;
+  border: 5px solid white;
+  user-select: none;
+}
+
+#sayHello {
+  margin-top: 100px;
+}
+
+/*What I've Worked On section*/
+.resumeIcon {
+  margin-left: 10px;
+}
+
+#resumeButton {
+  margin: 0;
+}
+
+/*Find Me section*/
+.textLogo {
+  font-size: 45px;
+  margin: 20px;
+  color: rgb(196, 196, 196);
+  transition: color 0.5s;
+}
+
+#githubLogo:hover {
+  color: black;
+}
+
+#twitterLogo:hover {
+  color: #2aa3ef;
+}
+
+#facebookLogo:hover {
+  color: #4969a8;
+}
+
+#linkedinLogo:hover {
+  color: #1677b2;
+}
+
+#emailLogo:hover {
+  color: black;
+}
+
+/*The Fading in animation for all react components*/
+.fadeInUp-appear {
+  opacity: 0;
+  transform: translateY(20px)
+}
+
+.fadeInUp-appear.fadeInUp-appear-active {
+  opacity: 1;
+  transform: translateY(0px);
+  transition: opacity .5s ease-out, transform .5s ease-out;
+}
+
+.beforeFadeInUp {
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+.beforeFadeInUp.nowFadeInUp {
+  opacity: 1;
+  transform: translateY(0px);
+  transition: opacity .5s ease-out, transform .5s ease-out;
+}
