@@ -1,13 +1,13 @@
 {
-  "main.css": "/static/css/main.d5619eb3.chunk.css",
-  "main.js": "/static/js/main.b7c291d3.chunk.js",
-  "main.js.map": "/static/js/main.b7c291d3.chunk.js.map",
-  "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
-  "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
-  "static/js/2.5115d145.chunk.js": "/static/js/2.5115d145.chunk.js",
-  "static/js/2.5115d145.chunk.js.map": "/static/js/2.5115d145.chunk.js.map",
-  "index.html": "/index.html",
-  "precache-manifest.b374bf9a8379ec33f0b99794ae4741a5.js": "/precache-manifest.b374bf9a8379ec33f0b99794ae4741a5.js",
-  "service-worker.js": "/service-worker.js",
-  "static/css/main.d5619eb3.chunk.css.map": "/static/css/main.d5619eb3.chunk.css.map"
+  "main.css": "gauthamkumar.com/static/css/main.d5619eb3.chunk.css",
+  "main.js": "gauthamkumar.com/static/js/main.b7c291d3.chunk.js",
+  "main.js.map": "gauthamkumar.com/static/js/main.b7c291d3.chunk.js.map",
+  "runtime~main.js": "gauthamkumar.com/static/js/runtime~main.7689b7d4.js",
+  "runtime~main.js.map": "gauthamkumar.com/static/js/runtime~main.7689b7d4.js.map",
+  "static/js/2.5115d145.chunk.js": "gauthamkumar.com/static/js/2.5115d145.chunk.js",
+  "static/js/2.5115d145.chunk.js.map": "gauthamkumar.com/static/js/2.5115d145.chunk.js.map",
+  "index.html": "gauthamkumar.com/index.html",
+  "precache-manifest.86da0feded6fbeac01ff78a08e9a5bd7.js": "gauthamkumar.com/precache-manifest.86da0feded6fbeac01ff78a08e9a5bd7.js",
+  "service-worker.js": "gauthamkumar.com/service-worker.js",
+  "static/css/main.d5619eb3.chunk.css.map": "gauthamkumar.com/static/css/main.d5619eb3.chunk.css.map"
 }
